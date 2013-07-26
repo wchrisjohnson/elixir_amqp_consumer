@@ -1,2 +1,0 @@
-defmodule AmqpConsumerEl do
-end

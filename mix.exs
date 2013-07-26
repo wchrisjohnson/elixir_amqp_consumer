@@ -16,6 +16,7 @@ defmodule AmqpConsumerEl.Mixfile do
   # Returns the list of dependencies in the format:
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    []
+    [ {:rabbit_common, "3.1.3", path: "deps/rabbit_common-3.1.3"},
+      {:amqp_client, "3.1.3", path: "deps/amqp_client-3.1.3"} ]
   end
 end
