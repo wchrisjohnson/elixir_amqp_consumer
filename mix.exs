@@ -1,8 +1,8 @@
-defmodule AmqpConsumerEl.Mixfile do
+defmodule ElixirAmqpConsumer.Mixfile do
   use Mix.Project
 
   def project do
-    [ app: :amqp_consumer_el,
+    [ app: :elixir_amqp_consumer,
       version: "0.0.1",
       elixir: "~> 0.9.4-dev",
       deps: deps ]

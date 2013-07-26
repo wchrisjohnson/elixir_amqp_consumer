@@ -1,16 +1,14 @@
-defmodule AmqpConsumerEl.Server do
+defmodule ElixirAmqpConsumer.Server do
   use GenServer.Behaviour
-  use AmqpClient
+
+  # ToDo: Try to get include of rabbitmq (erlang) records
+  # use AmqpClient
   # use "../../deps/amqp_client-3.1.3/include/amqp_client.hrl", __DIR__
   # use "amqp_client.hrl"
 
-
-  #  { :ok, pid } = :gen_server.start_link(AmqpConsumerEl.Server, 100, [])
   def init(current_number) do
 
     try do
-
-      IO.puts "INIT"
 
       IO.puts "PARAMS"
       inspect :amqp_params_network.new(), raw: true
