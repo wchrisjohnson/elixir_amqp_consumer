@@ -1,3 +1,4 @@
-# AmqpConsumerEl
+elixir_amqp_consumer
+====================
 
-** TODO: Add description **
+A simple first effort at an Elixir based RabbitMQ consumer
